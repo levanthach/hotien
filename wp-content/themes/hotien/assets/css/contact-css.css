@@ -1,0 +1,57 @@
+/* Blog */
+
+#contact-page {
+    background: url('../imgs/h1_slide_4.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    max-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact-page .section-title h1 {
+    margin: 0;
+    color: white;
+    font-family: "Spectral SC", serif;
+    font-size: 80px;
+    letter-spacing: .11em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.contact {
+    margin: 0 30px;
+}
+
+.contact .form-group input,
+.contact .form-group textarea {
+    box-shadow: none;
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+    padding: 30px 20px;
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 25px;
+    font-weight: inherit;
+    color: #afa8a7;
+    background-color: transparent;
+    border: 1px solid #e6e6e6;
+    border-radius: 0;
+    outline: 0;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -webkit-transition: color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out;
+    -o-transition: color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out;
+    transition: color .2s ease-out, background-color .2s ease-out, border-color .2s ease-out;
+}
+
+.contact .address h3 {
+    font-size: 1.5em;
+    font-family: 'Spectral', 'Spectral SC', serif;
+    font-weight: 500;
+}

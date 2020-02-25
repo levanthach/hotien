@@ -1,0 +1,21 @@
+#about-page {
+    background: url('../imgs/h1_slide_4.jpg') center center no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    max-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#about-page .section-title h1 {
+    margin: 0;
+    color: white;
+    font-family: "Spectral SC", serif;
+    font-size: 80px;
+    letter-spacing: .11em;
+    font-weight: 400;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+/* Blog */
+#blog-page {
+    background: url('../imgs/h1-bckg-img-4.jpg') center center no-repeat;
+      background-size: cover;
+      padding: 50px;
+      margin-top: 150px;
+      margin-bottom: 30px;
+  }
+
+  .blog-page-breakcum{
+    font-size: 15px;
+    color: #c8693a;
+    font-style: italic;
+    margin: 10px 0;
+    float: right;
+  }
+
+  h3.blog__title{
+    font-family: "Spectral SC",serif;
+    font-weight: 400;
+    color: #2b2824;
+    font-size: 40px;
+    line-height: 1.175em;
+    margin: 15px 0;
+    word-wrap: break-word;
+  }
+
+  .new-blog {
+      display: block;
+  }
+
+  .blog__title:hover {
+    color: #af2a4d;
+    outline: none;
+  }
+  
